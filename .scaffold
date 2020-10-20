@@ -1,0 +1,12 @@
+{
+    "message": "This is used for the scaffolding program for convenience",
+    "app_name": "library_api",
+    "full_path": "/Users/ericsmith/Programming/go/src/github.com/keenfury/library_api",
+    "sub_dir": "internal/v1",
+    "project_path": "github.com/keenfury/library_api",
+    "ProjectPathEncoded": "",
+    "SubDirEncoded": "",
+    "dynamic_schema": false,
+    "schema": "",
+    "dynamic_schema_postfix": ""
+}
