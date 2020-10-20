@@ -44,7 +44,7 @@ Body: json\
 {\
     "id": 1,\
     ...\
-} (id is required; add only key/value pair when needed)\
+} (id is required; add only key/value pairs when needed)\
 Code: 204
 
 #### Delete
@@ -54,5 +54,9 @@ Code: 204
 ### Running locally
 
 - Build and run from cmd/library_api.
-- Default local port is set by default to 12572 or can be set with env. var of: APP_PORT or set via command line argument flag of: restport
+- Default local port is set by default to 12572 or can be set with env. var of: APP_PORT or set via command line argument flag of: restport.
 - A sample set of books can be found in data/books.json, these are loaded in memory to provide a data set to interact with.
+- A sample of accessing via Postgresql can be done:
+    - comment/uncomment lines 16 & 17 in internal/v1/common.go to use the correct struct (interface)
+    - schema is found in data/schema.sql
+    - provide env. vars for PG_USER, PG_PASS, PG_DB to your local postgres instance
